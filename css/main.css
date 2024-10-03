@@ -1,0 +1,218 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2'); 
+}
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v15-latin-500.woff2') format('woff2'); 
+}
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v15-latin-600.woff2') format('woff2'); 
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "manrope", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* header-styles start */
+ .site-header {
+    padding: 50px 0 100px;
+    background-image: url(../images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+ }
+.site-header-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .header-title{
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 32.78px;
+     text-align: center;
+     color: #000000;
+     margin-bottom: 300px;
+ }
+ .header-link {
+     margin: 0 auto;
+     width: 240px;
+     display:block;
+     padding: 14px 62px;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 26px;
+     text-align: center;
+     color: #FFFFFF;
+     border: 4px solid #FFFFFF
+ } 
+
+/* header-styles end */
+
+/* hero section start */
+.hero-section {
+    padding: 200px 135px 100px 135px; 
+    background-color: black;
+}
+.hero-wrapper-up{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 100px;
+}
+.hero {
+    width: 528px;
+}
+.hero-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.hero-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.hero-img {
+}
+.hero-wrapper-down{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+/* hero section end */
+
+/* pounds styles start */
+.pounds-section {
+    padding:  0 135px 80px 135px ;
+    background-color: black;
+}
+.pounds-wrapper {
+    width: 972px;
+    margin-bottom: 32px;
+}
+.pounds-wrapper > h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.pounds-wrapper > p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.pounds-img {
+}
+/* pounds styles end */
+
+/* like styles start */
+.like-section {
+    padding:  0 135px 200px 135px ;
+    background-color: black;
+}
+.like-wrapper {
+    width: 972px;
+}
+.like-wrapper > h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    color: #FFFFFF;
+    margin-bottom: 16px;  
+}
+.like-wrapper > p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    color:#FFFFFF;    
+}
+.like-img {
+}
+/* like styles end */
+
+/* range styles start */
+.range-section {
+    padding:  0 135px 200px 135px ;
+    background-color: black;
+}
+.range-wrapper {
+    width: 972px;
+}
+.range-wrapper > h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+.range-wrapper > p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    color:#FFFFFF;
+}
+.like-img {
+}
+/* range styles end */
+
+/* footer styles start */
+.site-footer {
+    padding: 0 271px 100px 271px;
+    background-color: black;
+}
+.header-img-wrapper{
+  margin-left: 130px;
+}
+/* footer styles end */
+
+
+
+
+
+
+
+
